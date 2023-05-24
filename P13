@@ -1,0 +1,25 @@
+ #The rules for determining whether or not a year is a leap year follow:    
+
+  
+
+      
+
+  
+
+   year=int(input("Enter the year="))   
+
+  
+
+   if(year%4==0 and year%100!=0 or year%400==0):   
+
+  
+
+       print("The entered year is a leap year")   
+
+  
+
+   else:   
+
+  
+
+       print("The enteed year is not a leap year")
