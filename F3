@@ -1,0 +1,25 @@
+# PROGRAM THAT TAKES BASE AND POWER AND ARGUMENTES AND CALCULATE THE POWER OF NUMBERS  
+
+  
+
+  base=int(input("enter the base num:"))  
+
+  
+
+  power=int(input("enter the power:"))  
+
+  
+
+  def m(base,power):  
+
+  
+
+      pow=base**power  
+
+  
+
+      print(pow)  
+
+  
+
+  m(base,power)
