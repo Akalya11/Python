@@ -1,0 +1,41 @@
+#Write a program to display the count of even and odd numbers in a given range.  
+
+  
+
+    
+
+  
+
+  even=0  
+
+  
+
+  odd=0  
+
+  
+
+  for i in range(20,51):  
+
+  
+
+      if(i%2==0):  
+
+  
+
+          even=even+1  
+
+  
+
+      else:  
+
+  
+
+          odd=odd+1  
+
+  
+
+  print("Evencount=",even)  
+
+  
+
+  print("Oddcount=",odd)
