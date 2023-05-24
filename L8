@@ -1,0 +1,21 @@
+#Write a program to display the multiplication table as below with a given range  
+
+    
+
+  print("Tables")  
+
+  start=int(input("Enter the starting range"))  
+
+  end=int(input("Enter the ending range"))  
+
+  s=int(input("Enter the start number"))  
+
+  e=int(input("Enter the ending number"))  
+
+  for i in range(start,end):  
+
+      for j in range(s,e):  
+
+          multi=j*i  
+
+          print(i,"*",j,"=",multi)
