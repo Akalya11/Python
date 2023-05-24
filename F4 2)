@@ -1,0 +1,29 @@
+" X/2 +X/4.....+N"  
+
+  SAMPLE input  
+
+  N=7  
+
+  X=2  
+
+    
+
+  a=int(input("enter the no of terms:"))  
+
+  b=int(input("enter the values:"))  
+
+    
+
+  def n(a,b):  
+
+      ser=0  
+
+      for i in range(1,a+1):  
+
+          ser=ser+(x/(2**i))  
+
+      print(ser)  
+
+    
+
+  n(a,b)
