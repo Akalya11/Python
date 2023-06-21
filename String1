@@ -1,0 +1,10 @@
+given_string = "Welcome to CSE-A"
+n=0
+for i in given_string:
+    n = n + 1
+    new_string = given_string[0:2] + given_string [n-2: n]
+print("The string is")
+print(given_string)
+print("The new string is")
+print(new_string)
+
