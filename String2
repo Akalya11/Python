@@ -1,0 +1,7 @@
+str1= input("Enter First string :")
+str2= input("Enter Second string :")
+x=str[0:2]
+str1=str1.replace(str1[0:2],str2[0:2])
+str2=str2.replace(str2[0:2],x)
+print("Your first string has become :-",str1)
+print("Your second string has become :-",str2)
