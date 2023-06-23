@@ -1,0 +1,18 @@
+n=int(input("Enter the elements of a list:"))
+num = []
+for i in range(n):
+      x=int(input())
+      num.append(x)
+print("List",num)
+a=int(input("Enter the element to be found:"))
+def index(num,a):
+    pindex =[]
+    nindex =[]
+    ncount =0
+    c=len(num)
+for i in range(0,c):
+    if num[i] ==a:
+        pindex.append(i)
+        nindex.append(-c+i)
+        ncount=ncount+1
+print(index(num,a))
