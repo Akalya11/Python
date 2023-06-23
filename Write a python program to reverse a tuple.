@@ -1,0 +1,3 @@
+a=('p','y','t','h','o','n')
+tuple_values=tuple(reversed(a))
+print("The reversed tuple is",tuple_values)
