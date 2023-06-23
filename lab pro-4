@@ -1,0 +1,3 @@
+s=['p','y','t','h','o','n']
+string1=''.join(s)
+print(string1)
