@@ -1,0 +1,4 @@
+a_dict={'fruit':'cherry','animal':'cat','vegetable':'tomato'}
+for key in a_dict:
+    print(key)
+
