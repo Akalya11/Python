@@ -1,0 +1,9 @@
+    SCATTER PLOT:
+    CODE:
+
+import matplotlib.pyplot as plt
+x=[5,2,9,5,2,9,4,11,5]
+y=[99,86,88,100,183,77,85,24,69,]
+plt.scatter(x,y,c="red")
+plt.title("SCATTER PLOT")
+plt.show()
